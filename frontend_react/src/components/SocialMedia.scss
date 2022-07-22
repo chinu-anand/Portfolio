@@ -1,0 +1,32 @@
+.leetcode {
+    &:hover {
+        background-color: #fda11a;
+        border-color: #fda11a;
+
+        svg {
+            color: var(--white-color);
+        }
+    }
+}
+
+.twitter {
+    &:hover {
+        background-color: #1DA1F2;
+        border-color: #1DA1F2;
+
+        svg {
+            color: var(--white-color);
+        }
+    }
+}
+
+.linkedin {
+    &:hover {
+        background-color: #0077B5;
+        border-color: #0077B5;
+
+        svg {
+            color: var(--white-color);
+        }
+    }
+}

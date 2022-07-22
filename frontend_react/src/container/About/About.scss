@@ -1,0 +1,33 @@
+.app__about {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__profiles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+    img {
+        height: 135px;
+        flex-wrap: wrap;
+    }
+}
+
+.app__profile-item {
+    width: 180px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2rem;
+
+    img {
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+    }
+}
