@@ -8,4 +8,4 @@ cd Portfolio
 npm install
 npm start
 ```
-Do visit the live version of this website - [Portfolio](chinuanand.works).
+Do visit the live version of this website - [Portfolio](https://chinuanand.works/).
