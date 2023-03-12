@@ -23,6 +23,8 @@ const Skills = () => {
     });
   }, []);
 
+  experiences = experiences.sort((a,b)=> a.year-b.year);
+
   return (
     <>
       <h2 className="head-text">Skills & Experiences</h2>
