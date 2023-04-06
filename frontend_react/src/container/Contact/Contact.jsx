@@ -6,9 +6,9 @@ import { SiLeetcode } from 'react-icons/si';
 
 import { AppWrap, MotionWrap } from '../../Wrapper'
 import { client } from '../../client'
-import './Footer.scss'
+import './Contact.scss'
 
-const Footer = () => {
+const Contact = () => {
 
   const [formData, setFormData] = useState({ name: '', email: '', message: '' })
 
@@ -115,7 +115,7 @@ const Footer = () => {
 }
 
 export default AppWrap(
-  MotionWrap(Footer, 'app__footer'),
-  'footer',
+  MotionWrap(Contact, 'app__footer'),
+  'contact',
   'app__primarybg'
 )

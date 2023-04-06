@@ -23,7 +23,7 @@ const Skills = () => {
     });
   }, []);
 
-  experiences = experiences.sort((a,b)=> a.year-b.year);
+  const experiencesSorted = experiences.sort((a,b)=> b.year-a.year);
 
   return (
     <>
@@ -49,7 +49,7 @@ const Skills = () => {
           ))}
         </motion.div>
         <div className="app__skills-exp">
-          {experiences.map((experience) => (
+          {experiencesSorted.map((experience) => (
             <motion.div
               className="app__skills-exp-item"
               key={experience.year}
